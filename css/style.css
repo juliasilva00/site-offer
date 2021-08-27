@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-menu {
+    width: 100%;
+    height: 64px;
+    padding: 16px 70px;
+}
+
+.container-menu nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.container-sale-image img {
+    width: 100%;
+    height: 340px;
+}
+
+.path {
+    background: pink;
+    justify-content: space-between;
+}
+
+/*Inicio da swção de produtos*/
+
+.container {
+    width: 1000px;
+    margin: 35px auto;
+    padding: 0px;
+}
+
+.produtos-lista {
+    width: 100%;
+    list-style: none;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto {
+    width: calc((100% - 80px)/3);
+}
+
+ul li img {
+    width: 303px;
+    height: 303px;
+    max-width: 100%;
+    max-height: 100%;
+    list-style: none;
+    object-fit: cover;
+}
+
+ul li p {
+    margin-bottom: 64px;
+}
+
+.header-icon {
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.promocao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.span1 {
+    padding-left: 26px;
+}
+
+.span2 {
+    padding-right: 26px;
+}
+
+/*footer*/
+
+footer {
+    height: 140px;
+    border-top: #5CA720 4px solid;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoes {
+    line-height: 24px;
+    margin: 35px;
+}
+
+.informacoes ul li {
+    list-style: none;
+}
+
+.form-style input {
+    padding: 10px 30px;
+    border: #5CA720 3px solid;
+}
+
+.form-style label {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.form-style {
+    margin-right: 34px;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.btn {
+    color: aliceblue;
+    background: #5CA720;
+    border: 3px solid #5CA720;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin-left: 25px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #5CA720;
+}
